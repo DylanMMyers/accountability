@@ -6,6 +6,7 @@ ydl_opts = {
    'format': 'bestaudio/best',
    'outtmpl': './out/%(title)s.mp3'
 }
+
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
    info_dict = ydl.extract_info(url, download=False)
    title = info_dict.get('title', None)
