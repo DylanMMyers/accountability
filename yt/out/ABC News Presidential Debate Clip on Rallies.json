@@ -1,9 +1,9 @@
 {
     "metadata": {
         "transaction_key": "deprecated",
-        "request_id": "e74f1e62-d93e-4568-8dac-0aaf936a1a53",
+        "request_id": "5cc9df94-f169-43d5-9b48-7e78fc926a10",
         "sha256": "72c11e08a0878e87d6e293f317b2cfdd6a57a73ea1fb7386f9e72de7430d37c9",
-        "created": "2024-10-19T17:00:29.431Z",
+        "created": "2024-10-19T17:24:54.507Z",
         "duration": 140.6665,
         "channels": 1,
         "models": [
@@ -22,14 +22,14 @@
             {
                 "alternatives": [
                     {
-                        "transcript": "Do something really unusual, and I'm gonna invite you to attend one of Donald Trump's rallies because it's a really interesting thing to watch. You will see during the course of his rallies, he talks about fictional characters like Hannibal Lecter, He will talk about windmills cause cancer, and what you will also notice is that people start leaving his rallies early out of exhaustion and boredom. And I will tell you the one thing you will not hear him talk about is you. You will not hear him talk about your needs, your dreams, and your and your desires. And I'll tell you, I believe you deserve a president who actually puts you first, and I pledge to you that I will. President, Harris. Thank you. President Trump, on that point, I want to get your response Well, I would like to respond Let me just ask though why did you try to kill that bill and successfully so that would have put thousands of additional agents and officers on the board. First, let me respond as to the release. She said people started leaving. People don't go to her rallies. There's no reason to go. And the people that do go, she's busing them in and paying them to be there, and then showing them in a different light. So she can't talk about that. People don't leave my rallies. We have the biggest rallies, the most incredible rallies in the history of politics. That's because people wanna take their country back. Our country is being lost. We're a failing nation, and it happened three and a half years ago, and what what's going on here. You're gonna end up in World War three just to go into another subject. What they have done to our country by allowing these millions and millions of people to come into our country and look at what's happening to the towns all over the United States. And a lot of towns don't wanna talk. It's not gonna be Aurora or Springfield. A lot of towns don't wanna talk about it because they're so embarrassed by it. In Springfield, they're eating the dogs, the people that came in, they're eating the cats, they're eating they're eating the pets of the people that live there. And this is what's happening in our country, and it's a shame. As far as rallies are concerned, as far as the reason they go is they like what I say. They wanna bring our country back. They wanna make America great against. Very simple phrase. Make America great again. She's destroying this country. And if she becomes president, This country doesn't have a chance of success. Not only success will end up being Venezuela on steroids. I just wanna",
+                        "transcript": "Do something really unusual, and I'm gonna invite you to attend one of Donald Trump's rallies because it's a really interesting thing to watch. You will see during the course of his rallies, he talks about fictional characters like Hannibal Lecter, He will talk about windmills cause cancer, and what you will also notice is that people start leaving his rallies early out of exhaustion and boredom. And I will tell you the one thing you will not hear him talk about is you. You will not hear him talk about your needs, your dreams, and your and your desires. And I'll tell you, I believe you deserve a president who actually puts you first, and I pledge to you that I will. President, Harris. Thank you. President Trump, on that point, I want to get your response Well, I would like to respond Let me just ask though why did you try to kill that bill and successfully so that would have put thousands of additional agents and officers on the board. First, let me respond as to the release. She said people started leaving. People don't go to her rallies. There's no reason to go. And the people that do go, she's busing them in and paying them to be there, and then showing them in a different light. So she can't talk about that. People don't leave my rallies. We have the biggest rallies, the most incredible rallies in the history of politics. That's because people wanna take their country back. Our country is being lost. We're a failing nation, and it happened three and a half years ago, and what what's going on here. You're gonna end up in World War three just to go into another subject. What they have done to our country by allowing these millions and millions of people to come into our country and look at what's happening to the towns all over the United States. And a lot of towns don't wanna talk. It's not gonna be Aurora or Springfield. A lot of towns don't wanna talk about it because they're so embarrassed by it. In Springfield, they're eating the dogs, the people that came in, they're eating the cats, they're eating they're eating the pets of the people that live there. And this is what's happening in our country, and it's a shame. As far as rallies are concerned, as far as the reason they go is they like what I say. They wanna bring our country back. They wanna make America great against. Very simple phrase. Make America great again. She's destroying this country. And if she becomes president, this country doesn't have a chance of success. Not only success will end up being Venezuela on steroids. I just wanna",
                         "confidence": 0.9975586,
                         "words": [
                             {
                                 "word": "do",
                                 "start": 0.15992,
                                 "end": 0.31984,
-                                "confidence": 0.9082031,
+                                "confidence": 0.9272461,
                                 "punctuated_word": "Do"
                             },
                             {
@@ -50,7 +50,7 @@
                                 "word": "unusual",
                                 "start": 0.99950004,
                                 "end": 1.43928,
-                                "confidence": 0.70654297,
+                                "confidence": 0.7059326,
                                 "punctuated_word": "unusual,"
                             },
                             {
@@ -71,7 +71,7 @@
                                 "word": "gonna",
                                 "start": 1.7591201,
                                 "end": 2.03898,
-                                "confidence": 0.9248047,
+                                "confidence": 0.92529297,
                                 "punctuated_word": "gonna"
                             },
                             {
@@ -99,7 +99,7 @@
                                 "word": "attend",
                                 "start": 3.31834,
                                 "end": 3.5982,
-                                "confidence": 0.54541016,
+                                "confidence": 0.5415039,
                                 "punctuated_word": "attend"
                             },
                             {
@@ -113,7 +113,7 @@
                                 "word": "of",
                                 "start": 3.7981002,
                                 "end": 3.9180403,
-                                "confidence": 0.8041992,
+                                "confidence": 0.8022461,
                                 "punctuated_word": "of"
                             },
                             {
@@ -127,7 +127,7 @@
                                 "word": "trump's",
                                 "start": 4.23788,
                                 "end": 4.55772,
-                                "confidence": 0.9863281,
+                                "confidence": 0.986084,
                                 "punctuated_word": "Trump's"
                             },
                             {
@@ -141,7 +141,7 @@
                                 "word": "because",
                                 "start": 4.9975004,
                                 "end": 5.3173404,
-                                "confidence": 0.62646484,
+                                "confidence": 0.6274414,
                                 "punctuated_word": "because"
                             },
                             {
@@ -218,7 +218,7 @@
                                 "word": "during",
                                 "start": 8.355821,
                                 "end": 8.63568,
-                                "confidence": 0.59814453,
+                                "confidence": 0.5996094,
                                 "punctuated_word": "during"
                             },
                             {
@@ -253,7 +253,7 @@
                                 "word": "rallies",
                                 "start": 9.35532,
                                 "end": 9.75512,
-                                "confidence": 0.8977051,
+                                "confidence": 0.8984375,
                                 "punctuated_word": "rallies,"
                             },
                             {
@@ -309,14 +309,14 @@
                                 "word": "lecter",
                                 "start": 12.11394,
                                 "end": 12.61394,
-                                "confidence": 0.84195966,
+                                "confidence": 0.8421224,
                                 "punctuated_word": "Lecter,"
                             },
                             {
                                 "word": "he",
                                 "start": 13.2047205,
                                 "end": 13.40462,
-                                "confidence": 0.8017578,
+                                "confidence": 0.8041992,
                                 "punctuated_word": "He"
                             },
                             {
@@ -344,7 +344,7 @@
                                 "word": "windmills",
                                 "start": 14.3641405,
                                 "end": 14.8641405,
-                                "confidence": 0.95719403,
+                                "confidence": 0.9563802,
                                 "punctuated_word": "windmills"
                             },
                             {
@@ -358,7 +358,7 @@
                                 "word": "cancer",
                                 "start": 15.323661,
                                 "end": 15.823661,
-                                "confidence": 0.7319336,
+                                "confidence": 0.73254395,
                                 "punctuated_word": "cancer,"
                             },
                             {
@@ -407,7 +407,7 @@
                                 "word": "is",
                                 "start": 17.8424,
                                 "end": 18.002321,
-                                "confidence": 0.96728516,
+                                "confidence": 0.9667969,
                                 "punctuated_word": "is"
                             },
                             {
@@ -463,7 +463,7 @@
                                 "word": "out",
                                 "start": 20.56104,
                                 "end": 20.76094,
-                                "confidence": 0.9448242,
+                                "confidence": 0.9453125,
                                 "punctuated_word": "out"
                             },
                             {
@@ -491,12 +491,12 @@
                                 "word": "boredom",
                                 "start": 21.76044,
                                 "end": 22.26044,
-                                "confidence": 0.90478516,
+                                "confidence": 0.9050293,
                                 "punctuated_word": "boredom."
                             },
                             {
                                 "word": "and",
-                                "start": 22.719961,
+                                "start": 22.759941,
                                 "end": 22.95984,
                                 "confidence": 0.9819336,
                                 "punctuated_word": "And"
@@ -588,13 +588,13 @@
                             {
                                 "word": "talk",
                                 "start": 24.998821,
-                                "end": 25.27868,
+                                "end": 25.2387,
                                 "confidence": 1.0,
                                 "punctuated_word": "talk"
                             },
                             {
                                 "word": "about",
-                                "start": 25.27868,
+                                "start": 25.2387,
                                 "end": 25.5,
                                 "confidence": 0.9995117,
                                 "punctuated_word": "about"
@@ -610,7 +610,7 @@
                                 "word": "you",
                                 "start": 25.97976,
                                 "end": 26.47976,
-                                "confidence": 0.97558594,
+                                "confidence": 0.9753418,
                                 "punctuated_word": "you."
                             },
                             {
@@ -645,7 +645,7 @@
                                 "word": "him",
                                 "start": 27.41904,
                                 "end": 27.61894,
-                                "confidence": 0.72998047,
+                                "confidence": 0.7241211,
                                 "punctuated_word": "him"
                             },
                             {
@@ -687,7 +687,7 @@
                                 "word": "dreams",
                                 "start": 28.93828,
                                 "end": 29.33808,
-                                "confidence": 0.89331055,
+                                "confidence": 0.89208984,
                                 "punctuated_word": "dreams,"
                             },
                             {
@@ -708,21 +708,21 @@
                                 "word": "and",
                                 "start": 29.93778,
                                 "end": 30.21764,
-                                "confidence": 0.7050781,
+                                "confidence": 0.70214844,
                                 "punctuated_word": "and"
                             },
                             {
                                 "word": "your",
                                 "start": 30.21764,
                                 "end": 30.497501,
-                                "confidence": 0.99658203,
+                                "confidence": 0.99609375,
                                 "punctuated_word": "your"
                             },
                             {
                                 "word": "desires",
                                 "start": 30.497501,
                                 "end": 30.997501,
-                                "confidence": 0.9567871,
+                                "confidence": 0.9572754,
                                 "punctuated_word": "desires."
                             },
                             {
@@ -736,7 +736,7 @@
                                 "word": "i'll",
                                 "start": 31.61694,
                                 "end": 31.77686,
-                                "confidence": 0.98291016,
+                                "confidence": 0.98339844,
                                 "punctuated_word": "I'll"
                             },
                             {
@@ -750,7 +750,7 @@
                                 "word": "you",
                                 "start": 31.97676,
                                 "end": 32.17666,
-                                "confidence": 0.8352051,
+                                "confidence": 0.8371582,
                                 "punctuated_word": "you,"
                             },
                             {
@@ -778,7 +778,7 @@
                                 "word": "deserve",
                                 "start": 33.336082,
                                 "end": 33.836082,
-                                "confidence": 0.8691406,
+                                "confidence": 0.8671875,
                                 "punctuated_word": "deserve"
                             },
                             {
@@ -792,14 +792,14 @@
                                 "word": "president",
                                 "start": 34.25562,
                                 "end": 34.75562,
-                                "confidence": 0.96972656,
+                                "confidence": 0.97021484,
                                 "punctuated_word": "president"
                             },
                             {
                                 "word": "who",
                                 "start": 34.81534,
                                 "end": 35.0952,
-                                "confidence": 0.9770508,
+                                "confidence": 0.9765625,
                                 "punctuated_word": "who"
                             },
                             {
@@ -827,7 +827,7 @@
                                 "word": "first",
                                 "start": 36.01474,
                                 "end": 36.2946,
-                                "confidence": 0.77856445,
+                                "confidence": 0.7734375,
                                 "punctuated_word": "first,"
                             },
                             {
@@ -848,7 +848,7 @@
                                 "word": "pledge",
                                 "start": 36.65442,
                                 "end": 37.01424,
-                                "confidence": 0.8569336,
+                                "confidence": 0.86083984,
                                 "punctuated_word": "pledge"
                             },
                             {
@@ -869,21 +869,21 @@
                                 "word": "that",
                                 "start": 37.2941,
                                 "end": 37.494,
-                                "confidence": 0.99609375,
+                                "confidence": 0.99560547,
                                 "punctuated_word": "that"
                             },
                             {
                                 "word": "i",
                                 "start": 37.494,
                                 "end": 37.61394,
-                                "confidence": 0.99658203,
+                                "confidence": 0.99609375,
                                 "punctuated_word": "I"
                             },
                             {
                                 "word": "will",
                                 "start": 37.61394,
                                 "end": 38.055,
-                                "confidence": 0.95043945,
+                                "confidence": 0.91918945,
                                 "punctuated_word": "will."
                             },
                             {
@@ -897,7 +897,7 @@
                                 "word": "harris",
                                 "start": 38.53476,
                                 "end": 38.8546,
-                                "confidence": 0.7824707,
+                                "confidence": 0.78125,
                                 "punctuated_word": "Harris."
                             },
                             {
@@ -918,7 +918,7 @@
                                 "word": "president",
                                 "start": 39.21442,
                                 "end": 39.49428,
-                                "confidence": 0.7480469,
+                                "confidence": 0.74560547,
                                 "punctuated_word": "President"
                             },
                             {
@@ -932,7 +932,7 @@
                                 "word": "on",
                                 "start": 39.59423,
                                 "end": 39.69418,
-                                "confidence": 0.93847656,
+                                "confidence": 0.93896484,
                                 "punctuated_word": "on"
                             },
                             {
@@ -946,7 +946,7 @@
                                 "word": "point",
                                 "start": 39.880753,
                                 "end": 40.067326,
-                                "confidence": 0.92285156,
+                                "confidence": 0.923584,
                                 "punctuated_word": "point,"
                             },
                             {
@@ -960,7 +960,7 @@
                                 "word": "want",
                                 "start": 40.2539,
                                 "end": 40.413822,
-                                "confidence": 0.43554688,
+                                "confidence": 0.4375,
                                 "punctuated_word": "want"
                             },
                             {
@@ -988,14 +988,14 @@
                                 "word": "response",
                                 "start": 40.883583,
                                 "end": 40.91357,
-                                "confidence": 0.8745117,
+                                "confidence": 0.8725586,
                                 "punctuated_word": "response"
                             },
                             {
                                 "word": "well",
                                 "start": 40.943558,
                                 "end": 40.97354,
-                                "confidence": 0.85595703,
+                                "confidence": 0.8574219,
                                 "punctuated_word": "Well,"
                             },
                             {
@@ -1016,7 +1016,7 @@
                                 "word": "like",
                                 "start": 41.2534,
                                 "end": 41.49328,
-                                "confidence": 0.97753906,
+                                "confidence": 0.97802734,
                                 "punctuated_word": "like"
                             },
                             {
@@ -1030,7 +1030,7 @@
                                 "word": "respond",
                                 "start": 41.69318,
                                 "end": 41.79313,
-                                "confidence": 0.80371094,
+                                "confidence": 0.80566406,
                                 "punctuated_word": "respond"
                             },
                             {
@@ -1065,14 +1065,14 @@
                                 "word": "though",
                                 "start": 42.57274,
                                 "end": 42.77264,
-                                "confidence": 0.60498047,
+                                "confidence": 0.6035156,
                                 "punctuated_word": "though"
                             },
                             {
                                 "word": "why",
                                 "start": 42.77264,
                                 "end": 42.97254,
-                                "confidence": 0.50927734,
+                                "confidence": 0.51123047,
                                 "punctuated_word": "why"
                             },
                             {
@@ -1163,7 +1163,7 @@
                                 "word": "have",
                                 "start": 45.6512,
                                 "end": 45.81112,
-                                "confidence": 0.7788086,
+                                "confidence": 0.77783203,
                                 "punctuated_word": "have"
                             },
                             {
@@ -1177,7 +1177,7 @@
                                 "word": "thousands",
                                 "start": 45.97104,
                                 "end": 46.370842,
-                                "confidence": 0.9980469,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "thousands"
                             },
                             {
@@ -1226,21 +1226,21 @@
                                 "word": "the",
                                 "start": 48.01002,
                                 "end": 48.12996,
-                                "confidence": 0.9995117,
+                                "confidence": 0.99902344,
                                 "punctuated_word": "the"
                             },
                             {
                                 "word": "board",
                                 "start": 48.12996,
                                 "end": 48.32986,
-                                "confidence": 0.7854004,
+                                "confidence": 0.78564453,
                                 "punctuated_word": "board."
                             },
                             {
                                 "word": "first",
                                 "start": 48.32986,
                                 "end": 48.48978,
-                                "confidence": 0.7861328,
+                                "confidence": 0.7849121,
                                 "punctuated_word": "First,"
                             },
                             {
@@ -1261,42 +1261,42 @@
                                 "word": "respond",
                                 "start": 48.80962,
                                 "end": 49.16944,
-                                "confidence": 0.9560547,
+                                "confidence": 0.95654297,
                                 "punctuated_word": "respond"
                             },
                             {
                                 "word": "as",
                                 "start": 49.16944,
-                                "end": 49.36934,
-                                "confidence": 0.8491211,
+                                "end": 49.32936,
+                                "confidence": 0.8510742,
                                 "punctuated_word": "as"
                             },
                             {
                                 "word": "to",
-                                "start": 49.36934,
+                                "start": 49.32936,
                                 "end": 49.449303,
-                                "confidence": 0.98779297,
+                                "confidence": 0.98828125,
                                 "punctuated_word": "to"
                             },
                             {
                                 "word": "the",
                                 "start": 49.449303,
                                 "end": 49.609222,
-                                "confidence": 0.7402344,
+                                "confidence": 0.7373047,
                                 "punctuated_word": "the"
                             },
                             {
                                 "word": "release",
                                 "start": 49.609222,
                                 "end": 50.109222,
-                                "confidence": 0.81274414,
+                                "confidence": 0.8117676,
                                 "punctuated_word": "release."
                             },
                             {
                                 "word": "she",
                                 "start": 50.549942,
                                 "end": 50.74984,
-                                "confidence": 0.58691406,
+                                "confidence": 0.5854492,
                                 "punctuated_word": "She"
                             },
                             {
@@ -1317,14 +1317,14 @@
                                 "word": "started",
                                 "start": 51.34954,
                                 "end": 51.709362,
-                                "confidence": 0.6855469,
+                                "confidence": 0.6875,
                                 "punctuated_word": "started"
                             },
                             {
                                 "word": "leaving",
                                 "start": 51.709362,
                                 "end": 51.98922,
-                                "confidence": 0.7624512,
+                                "confidence": 0.7626953,
                                 "punctuated_word": "leaving."
                             },
                             {
@@ -1366,14 +1366,14 @@
                                 "word": "rallies",
                                 "start": 52.98872,
                                 "end": 53.30856,
-                                "confidence": 0.9423828,
+                                "confidence": 0.94262695,
                                 "punctuated_word": "rallies."
                             },
                             {
                                 "word": "there's",
                                 "start": 53.30856,
                                 "end": 53.54844,
-                                "confidence": 0.93847656,
+                                "confidence": 0.9379883,
                                 "punctuated_word": "There's"
                             },
                             {
@@ -1401,7 +1401,7 @@
                                 "word": "go",
                                 "start": 54.108162,
                                 "end": 54.608162,
-                                "confidence": 0.9609375,
+                                "confidence": 0.96069336,
                                 "punctuated_word": "go."
                             },
                             {
@@ -1464,7 +1464,7 @@
                                 "word": "them",
                                 "start": 56.86678,
                                 "end": 57.06668,
-                                "confidence": 0.75878906,
+                                "confidence": 0.7602539,
                                 "punctuated_word": "them"
                             },
                             {
@@ -1513,7 +1513,7 @@
                                 "word": "there",
                                 "start": 58.38602,
                                 "end": 58.88602,
-                                "confidence": 0.6776123,
+                                "confidence": 0.678833,
                                 "punctuated_word": "there,"
                             },
                             {
@@ -1527,14 +1527,14 @@
                                 "word": "then",
                                 "start": 60.0252,
                                 "end": 60.10516,
-                                "confidence": 0.9814453,
+                                "confidence": 0.9819336,
                                 "punctuated_word": "then"
                             },
                             {
                                 "word": "showing",
                                 "start": 60.10516,
                                 "end": 60.50496,
-                                "confidence": 0.9897461,
+                                "confidence": 0.9902344,
                                 "punctuated_word": "showing"
                             },
                             {
@@ -1548,7 +1548,7 @@
                                 "word": "in",
                                 "start": 60.744843,
                                 "end": 60.904762,
-                                "confidence": 0.98339844,
+                                "confidence": 0.9838867,
                                 "punctuated_word": "in"
                             },
                             {
@@ -1569,7 +1569,7 @@
                                 "word": "light",
                                 "start": 61.46448,
                                 "end": 61.96448,
-                                "confidence": 0.9160156,
+                                "confidence": 0.9165039,
                                 "punctuated_word": "light."
                             },
                             {
@@ -1583,14 +1583,14 @@
                                 "word": "she",
                                 "start": 62.54394,
                                 "end": 62.70386,
-                                "confidence": 0.8613281,
+                                "confidence": 0.8623047,
                                 "punctuated_word": "she"
                             },
                             {
                                 "word": "can't",
                                 "start": 62.70386,
                                 "end": 62.98372,
-                                "confidence": 0.9987793,
+                                "confidence": 0.99902344,
                                 "punctuated_word": "can't"
                             },
                             {
@@ -1646,28 +1646,28 @@
                                 "word": "rallies",
                                 "start": 64.50296,
                                 "end": 64.815,
-                                "confidence": 0.82250977,
+                                "confidence": 0.82421875,
                                 "punctuated_word": "rallies."
                             },
                             {
                                 "word": "we",
                                 "start": 64.85498,
                                 "end": 64.97492,
-                                "confidence": 0.734375,
+                                "confidence": 0.75878906,
                                 "punctuated_word": "We"
                             },
                             {
                                 "word": "have",
                                 "start": 64.97492,
                                 "end": 65.17482,
-                                "confidence": 0.9863281,
+                                "confidence": 0.9838867,
                                 "punctuated_word": "have"
                             },
                             {
                                 "word": "the",
                                 "start": 65.17482,
                                 "end": 65.29476,
-                                "confidence": 0.9980469,
+                                "confidence": 0.9975586,
                                 "punctuated_word": "the"
                             },
                             {
@@ -1681,7 +1681,7 @@
                                 "word": "rallies",
                                 "start": 65.65458,
                                 "end": 66.05438,
-                                "confidence": 0.9628906,
+                                "confidence": 0.96240234,
                                 "punctuated_word": "rallies,"
                             },
                             {
@@ -1716,7 +1716,7 @@
                                 "word": "in",
                                 "start": 67.373726,
                                 "end": 67.533646,
-                                "confidence": 0.82666016,
+                                "confidence": 0.8222656,
                                 "punctuated_word": "in"
                             },
                             {
@@ -1730,7 +1730,7 @@
                                 "word": "history",
                                 "start": 67.65358,
                                 "end": 67.97342,
-                                "confidence": 0.9980469,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "history"
                             },
                             {
@@ -1744,14 +1744,14 @@
                                 "word": "politics",
                                 "start": 68.09336,
                                 "end": 68.59336,
-                                "confidence": 0.90405273,
+                                "confidence": 0.9091797,
                                 "punctuated_word": "politics."
                             },
                             {
                                 "word": "that's",
                                 "start": 68.773026,
                                 "end": 69.05288,
-                                "confidence": 0.998291,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "That's"
                             },
                             {
@@ -1772,7 +1772,7 @@
                                 "word": "wanna",
                                 "start": 69.692566,
                                 "end": 70.05238,
-                                "confidence": 0.66796875,
+                                "confidence": 0.6816406,
                                 "punctuated_word": "wanna"
                             },
                             {
@@ -1786,7 +1786,7 @@
                                 "word": "their",
                                 "start": 70.492165,
                                 "end": 70.69206,
-                                "confidence": 0.99609375,
+                                "confidence": 0.99658203,
                                 "punctuated_word": "their"
                             },
                             {
@@ -1800,7 +1800,7 @@
                                 "word": "back",
                                 "start": 71.17182,
                                 "end": 71.67182,
-                                "confidence": 0.9963379,
+                                "confidence": 0.9968262,
                                 "punctuated_word": "back."
                             },
                             {
@@ -1835,35 +1835,35 @@
                                 "word": "lost",
                                 "start": 73.2108,
                                 "end": 73.53064,
-                                "confidence": 0.93408203,
+                                "confidence": 0.93237305,
                                 "punctuated_word": "lost."
                             },
                             {
                                 "word": "we're",
                                 "start": 73.53064,
                                 "end": 73.77052,
-                                "confidence": 0.9929199,
+                                "confidence": 0.99365234,
                                 "punctuated_word": "We're"
                             },
                             {
                                 "word": "a",
                                 "start": 73.77052,
                                 "end": 73.85048,
-                                "confidence": 0.99853516,
+                                "confidence": 0.99902344,
                                 "punctuated_word": "a"
                             },
                             {
                                 "word": "failing",
                                 "start": 73.85048,
                                 "end": 74.330246,
-                                "confidence": 0.99853516,
+                                "confidence": 0.9980469,
                                 "punctuated_word": "failing"
                             },
                             {
                                 "word": "nation",
                                 "start": 74.330246,
                                 "end": 74.830246,
-                                "confidence": 0.7105713,
+                                "confidence": 0.7192383,
                                 "punctuated_word": "nation,"
                             },
                             {
@@ -1877,14 +1877,14 @@
                                 "word": "it",
                                 "start": 75.129845,
                                 "end": 75.289764,
-                                "confidence": 0.98046875,
+                                "confidence": 0.9824219,
                                 "punctuated_word": "it"
                             },
                             {
                                 "word": "happened",
                                 "start": 75.289764,
                                 "end": 75.789764,
-                                "confidence": 0.99609375,
+                                "confidence": 0.9970703,
                                 "punctuated_word": "happened"
                             },
                             {
@@ -1898,19 +1898,19 @@
                                 "word": "and",
                                 "start": 76.16933,
                                 "end": 76.369225,
-                                "confidence": 0.9838867,
+                                "confidence": 0.98535156,
                                 "punctuated_word": "and"
                             },
                             {
                                 "word": "a",
                                 "start": 76.369225,
-                                "end": 76.44918,
-                                "confidence": 0.9760742,
+                                "end": 76.48917,
+                                "confidence": 0.98046875,
                                 "punctuated_word": "a"
                             },
                             {
                                 "word": "half",
-                                "start": 76.44918,
+                                "start": 76.48917,
                                 "end": 76.689064,
                                 "confidence": 1.0,
                                 "punctuated_word": "half"
@@ -1926,28 +1926,28 @@
                                 "word": "ago",
                                 "start": 76.968925,
                                 "end": 77.468925,
-                                "confidence": 0.73339844,
+                                "confidence": 0.7269287,
                                 "punctuated_word": "ago,"
                             },
                             {
                                 "word": "and",
-                                "start": 77.768524,
+                                "start": 77.8085,
                                 "end": 78.21,
-                                "confidence": 0.9980469,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "and"
                             },
                             {
                                 "word": "what",
                                 "start": 78.48986,
                                 "end": 78.64978,
-                                "confidence": 0.8354492,
+                                "confidence": 0.84814453,
                                 "punctuated_word": "what"
                             },
                             {
                                 "word": "what's",
                                 "start": 78.8097,
                                 "end": 79.12954,
-                                "confidence": 0.9550781,
+                                "confidence": 0.95581055,
                                 "punctuated_word": "what's"
                             },
                             {
@@ -1968,14 +1968,14 @@
                                 "word": "here",
                                 "start": 79.64928,
                                 "end": 79.92914,
-                                "confidence": 0.66589355,
+                                "confidence": 0.66674805,
                                 "punctuated_word": "here."
                             },
                             {
                                 "word": "you're",
                                 "start": 79.92914,
                                 "end": 80.04908,
-                                "confidence": 0.9243164,
+                                "confidence": 0.9250488,
                                 "punctuated_word": "You're"
                             },
                             {
@@ -2010,7 +2010,7 @@
                                 "word": "world",
                                 "start": 80.8087,
                                 "end": 81.08856,
-                                "confidence": 0.6777344,
+                                "confidence": 0.65722656,
                                 "punctuated_word": "World"
                             },
                             {
@@ -2024,14 +2024,14 @@
                                 "word": "three",
                                 "start": 81.368416,
                                 "end": 81.56832,
-                                "confidence": 0.9169922,
+                                "confidence": 0.9199219,
                                 "punctuated_word": "three"
                             },
                             {
                                 "word": "just",
                                 "start": 81.56832,
                                 "end": 81.76822,
-                                "confidence": 0.4946289,
+                                "confidence": 0.49853516,
                                 "punctuated_word": "just"
                             },
                             {
@@ -2045,14 +2045,14 @@
                                 "word": "go",
                                 "start": 81.88816,
                                 "end": 82.04808,
-                                "confidence": 0.9916992,
+                                "confidence": 0.99121094,
                                 "punctuated_word": "go"
                             },
                             {
                                 "word": "into",
                                 "start": 82.04808,
                                 "end": 82.28796,
-                                "confidence": 0.99365234,
+                                "confidence": 0.99316406,
                                 "punctuated_word": "into"
                             },
                             {
@@ -2066,14 +2066,14 @@
                                 "word": "subject",
                                 "start": 82.64778,
                                 "end": 83.14778,
-                                "confidence": 0.9160156,
+                                "confidence": 0.9199219,
                                 "punctuated_word": "subject."
                             },
                             {
                                 "word": "what",
                                 "start": 83.64728,
                                 "end": 83.92714,
-                                "confidence": 0.99316406,
+                                "confidence": 0.99365234,
                                 "punctuated_word": "What"
                             },
                             {
@@ -2122,7 +2122,7 @@
                                 "word": "by",
                                 "start": 85.4064,
                                 "end": 85.56632,
-                                "confidence": 0.9448242,
+                                "confidence": 0.94873047,
                                 "punctuated_word": "by"
                             },
                             {
@@ -2136,7 +2136,7 @@
                                 "word": "these",
                                 "start": 86.006096,
                                 "end": 86.32594,
-                                "confidence": 0.99853516,
+                                "confidence": 0.9980469,
                                 "punctuated_word": "these"
                             },
                             {
@@ -2150,7 +2150,7 @@
                                 "word": "and",
                                 "start": 86.92564,
                                 "end": 87.2055,
-                                "confidence": 0.9926758,
+                                "confidence": 0.99316406,
                                 "punctuated_word": "and"
                             },
                             {
@@ -2170,20 +2170,20 @@
                             {
                                 "word": "people",
                                 "start": 87.88516,
-                                "end": 88.28496,
+                                "end": 88.324936,
                                 "confidence": 1.0,
                                 "punctuated_word": "people"
                             },
                             {
                                 "word": "to",
-                                "start": 88.28496,
-                                "end": 88.4049,
+                                "start": 88.324936,
+                                "end": 88.44488,
                                 "confidence": 1.0,
                                 "punctuated_word": "to"
                             },
                             {
                                 "word": "come",
-                                "start": 88.4049,
+                                "start": 88.44488,
                                 "end": 88.6048,
                                 "confidence": 1.0,
                                 "punctuated_word": "come"
@@ -2192,14 +2192,14 @@
                                 "word": "into",
                                 "start": 88.6048,
                                 "end": 88.88466,
-                                "confidence": 0.9863281,
+                                "confidence": 0.98583984,
                                 "punctuated_word": "into"
                             },
                             {
                                 "word": "our",
                                 "start": 88.88466,
                                 "end": 89.04458,
-                                "confidence": 0.9746094,
+                                "confidence": 0.97558594,
                                 "punctuated_word": "our"
                             },
                             {
@@ -2211,9 +2211,9 @@
                             },
                             {
                                 "word": "and",
-                                "start": 89.6043,
+                                "start": 89.64428,
                                 "end": 89.84418,
-                                "confidence": 0.86572266,
+                                "confidence": 0.8652344,
                                 "punctuated_word": "and"
                             },
                             {
@@ -2240,20 +2240,20 @@
                             {
                                 "word": "happening",
                                 "start": 90.52384,
-                                "end": 90.96362,
+                                "end": 91.0036,
                                 "confidence": 1.0,
                                 "punctuated_word": "happening"
                             },
                             {
                                 "word": "to",
-                                "start": 90.96362,
-                                "end": 91.12354,
+                                "start": 91.0036,
+                                "end": 91.16352,
                                 "confidence": 0.99853516,
                                 "punctuated_word": "to"
                             },
                             {
                                 "word": "the",
-                                "start": 91.12354,
+                                "start": 91.16352,
                                 "end": 91.32344,
                                 "confidence": 0.99853516,
                                 "punctuated_word": "the"
@@ -2261,21 +2261,21 @@
                             {
                                 "word": "towns",
                                 "start": 91.32344,
-                                "end": 91.82344,
+                                "end": 91.8032,
                                 "confidence": 0.9995117,
                                 "punctuated_word": "towns"
                             },
                             {
                                 "word": "all",
-                                "start": 91.84318,
-                                "end": 92.0031,
+                                "start": 91.8032,
+                                "end": 91.96312,
                                 "confidence": 0.99560547,
                                 "punctuated_word": "all"
                             },
                             {
                                 "word": "over",
-                                "start": 92.0031,
-                                "end": 92.475,
+                                "start": 91.96312,
+                                "end": 92.46312,
                                 "confidence": 1.0,
                                 "punctuated_word": "over"
                             },
@@ -2283,7 +2283,7 @@
                                 "word": "the",
                                 "start": 92.51498,
                                 "end": 92.63492,
-                                "confidence": 0.8515625,
+                                "confidence": 0.8540039,
                                 "punctuated_word": "the"
                             },
                             {
@@ -2304,7 +2304,7 @@
                                 "word": "and",
                                 "start": 93.2746,
                                 "end": 93.35456,
-                                "confidence": 0.5283203,
+                                "confidence": 0.5258789,
                                 "punctuated_word": "And"
                             },
                             {
@@ -2332,7 +2332,7 @@
                                 "word": "towns",
                                 "start": 93.79434,
                                 "end": 94.03422,
-                                "confidence": 0.95458984,
+                                "confidence": 0.9550781,
                                 "punctuated_word": "towns"
                             },
                             {
@@ -2353,14 +2353,14 @@
                                 "word": "talk",
                                 "start": 94.51398,
                                 "end": 94.6739,
-                                "confidence": 0.63916016,
+                                "confidence": 0.6392822,
                                 "punctuated_word": "talk."
                             },
                             {
                                 "word": "it's",
                                 "start": 94.6739,
                                 "end": 94.83382,
-                                "confidence": 0.765625,
+                                "confidence": 0.7661133,
                                 "punctuated_word": "It's"
                             },
                             {
@@ -2395,7 +2395,7 @@
                                 "word": "or",
                                 "start": 95.83332,
                                 "end": 96.03322,
-                                "confidence": 0.9472656,
+                                "confidence": 0.94628906,
                                 "punctuated_word": "or"
                             },
                             {
@@ -2444,7 +2444,7 @@
                                 "word": "wanna",
                                 "start": 97.6724,
                                 "end": 97.99224,
-                                "confidence": 0.87402344,
+                                "confidence": 0.8754883,
                                 "punctuated_word": "wanna"
                             },
                             {
@@ -2479,7 +2479,7 @@
                                 "word": "they're",
                                 "start": 98.83182,
                                 "end": 98.99174,
-                                "confidence": 0.99072266,
+                                "confidence": 0.9909668,
                                 "punctuated_word": "they're"
                             },
                             {
@@ -2528,7 +2528,7 @@
                                 "word": "they're",
                                 "start": 102.110176,
                                 "end": 102.47,
-                                "confidence": 0.99658203,
+                                "confidence": 0.9968262,
                                 "punctuated_word": "they're"
                             },
                             {
@@ -2591,7 +2591,7 @@
                                 "word": "they're",
                                 "start": 105.10868,
                                 "end": 105.38854,
-                                "confidence": 0.9970703,
+                                "confidence": 0.9968262,
                                 "punctuated_word": "they're"
                             },
                             {
@@ -2633,7 +2633,7 @@
                                 "word": "they're",
                                 "start": 107.9599,
                                 "end": 108.319725,
-                                "confidence": 0.76171875,
+                                "confidence": 0.76049805,
                                 "punctuated_word": "they're"
                             },
                             {
@@ -2654,14 +2654,14 @@
                                 "word": "pets",
                                 "start": 109.079346,
                                 "end": 109.579346,
-                                "confidence": 0.984375,
+                                "confidence": 0.9848633,
                                 "punctuated_word": "pets"
                             },
                             {
                                 "word": "of",
                                 "start": 109.79898,
                                 "end": 109.998886,
-                                "confidence": 0.9980469,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "of"
                             },
                             {
@@ -2696,21 +2696,21 @@
                                 "word": "there",
                                 "start": 111.558105,
                                 "end": 112.058105,
-                                "confidence": 0.73876953,
+                                "confidence": 0.73376465,
                                 "punctuated_word": "there."
                             },
                             {
                                 "word": "and",
                                 "start": 112.23776,
                                 "end": 112.43766,
-                                "confidence": 0.99121094,
+                                "confidence": 0.9921875,
                                 "punctuated_word": "And"
                             },
                             {
                                 "word": "this",
                                 "start": 112.43766,
                                 "end": 112.67754,
-                                "confidence": 0.98583984,
+                                "confidence": 0.98535156,
                                 "punctuated_word": "this"
                             },
                             {
@@ -2723,14 +2723,14 @@
                             {
                                 "word": "what's",
                                 "start": 112.83746,
-                                "end": 113.117325,
+                                "end": 113.1573,
                                 "confidence": 0.99902344,
                                 "punctuated_word": "what's"
                             },
                             {
                                 "word": "happening",
-                                "start": 113.117325,
-                                "end": 113.617325,
+                                "start": 113.1573,
+                                "end": 113.6573,
                                 "confidence": 1.0,
                                 "punctuated_word": "happening"
                             },
@@ -2752,7 +2752,7 @@
                                 "word": "country",
                                 "start": 114.07684,
                                 "end": 114.57684,
-                                "confidence": 0.7462158,
+                                "confidence": 0.74523926,
                                 "punctuated_word": "country,"
                             },
                             {
@@ -2773,14 +2773,14 @@
                                 "word": "a",
                                 "start": 115.1563,
                                 "end": 115.39618,
-                                "confidence": 0.99853516,
+                                "confidence": 0.9980469,
                                 "punctuated_word": "a"
                             },
                             {
                                 "word": "shame",
                                 "start": 115.39618,
                                 "end": 115.89618,
-                                "confidence": 0.9284668,
+                                "confidence": 0.93359375,
                                 "punctuated_word": "shame."
                             },
                             {
@@ -2808,33 +2808,33 @@
                                 "word": "rallies",
                                 "start": 117.47514,
                                 "end": 117.914925,
-                                "confidence": 0.64453125,
+                                "confidence": 0.57128906,
                                 "punctuated_word": "rallies"
                             },
                             {
                                 "word": "are",
                                 "start": 117.914925,
                                 "end": 118.03487,
-                                "confidence": 0.99902344,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "are"
                             },
                             {
                                 "word": "concerned",
                                 "start": 118.03487,
                                 "end": 118.53487,
-                                "confidence": 0.97021484,
+                                "confidence": 0.9719238,
                                 "punctuated_word": "concerned,"
                             },
                             {
                                 "word": "as",
                                 "start": 118.59458,
-                                "end": 118.79448,
+                                "end": 118.834465,
                                 "confidence": 0.9995117,
                                 "punctuated_word": "as"
                             },
                             {
                                 "word": "far",
-                                "start": 118.79448,
+                                "start": 118.834465,
                                 "end": 119.23426,
                                 "confidence": 1.0,
                                 "punctuated_word": "far"
@@ -2850,7 +2850,7 @@
                                 "word": "the",
                                 "start": 119.594086,
                                 "end": 119.754005,
-                                "confidence": 0.95654297,
+                                "confidence": 0.95410156,
                                 "punctuated_word": "the"
                             },
                             {
@@ -2878,14 +2878,14 @@
                                 "word": "is",
                                 "start": 120.59358,
                                 "end": 120.79348,
-                                "confidence": 0.8017578,
+                                "confidence": 0.80078125,
                                 "punctuated_word": "is"
                             },
                             {
                                 "word": "they",
                                 "start": 120.79348,
                                 "end": 120.993385,
-                                "confidence": 0.97265625,
+                                "confidence": 0.9736328,
                                 "punctuated_word": "they"
                             },
                             {
@@ -2913,21 +2913,21 @@
                                 "word": "say",
                                 "start": 121.633064,
                                 "end": 122.025,
-                                "confidence": 0.7607422,
+                                "confidence": 0.75268555,
                                 "punctuated_word": "say."
                             },
                             {
                                 "word": "they",
                                 "start": 122.14494,
                                 "end": 122.34484,
-                                "confidence": 0.6669922,
+                                "confidence": 0.6225586,
                                 "punctuated_word": "They"
                             },
                             {
                                 "word": "wanna",
                                 "start": 122.34484,
                                 "end": 122.70466,
-                                "confidence": 0.70751953,
+                                "confidence": 0.6635742,
                                 "punctuated_word": "wanna"
                             },
                             {
@@ -2955,21 +2955,21 @@
                                 "word": "back",
                                 "start": 123.74414,
                                 "end": 124.10396,
-                                "confidence": 0.8989258,
+                                "confidence": 0.8942871,
                                 "punctuated_word": "back."
                             },
                             {
                                 "word": "they",
                                 "start": 124.10396,
                                 "end": 124.30386,
-                                "confidence": 0.99902344,
+                                "confidence": 0.99853516,
                                 "punctuated_word": "They"
                             },
                             {
                                 "word": "wanna",
                                 "start": 124.30386,
                                 "end": 124.66368,
-                                "confidence": 0.94091797,
+                                "confidence": 0.93115234,
                                 "punctuated_word": "wanna"
                             },
                             {
@@ -2988,30 +2988,30 @@
                             },
                             {
                                 "word": "great",
-                                "start": 125.503265,
+                                "start": 125.46328,
                                 "end": 125.74314,
-                                "confidence": 0.9951172,
+                                "confidence": 0.9946289,
                                 "punctuated_word": "great"
                             },
                             {
                                 "word": "against",
                                 "start": 125.74314,
                                 "end": 126.06298,
-                                "confidence": 0.6069336,
+                                "confidence": 0.6220703,
                                 "punctuated_word": "against."
                             },
                             {
                                 "word": "very",
                                 "start": 126.06298,
                                 "end": 126.34284,
-                                "confidence": 0.9975586,
+                                "confidence": 0.9970703,
                                 "punctuated_word": "Very"
                             },
                             {
                                 "word": "simple",
                                 "start": 126.34284,
                                 "end": 126.66268,
-                                "confidence": 0.9970703,
+                                "confidence": 0.9975586,
                                 "punctuated_word": "simple"
                             },
                             {
@@ -3032,28 +3032,28 @@
                                 "word": "america",
                                 "start": 127.50226,
                                 "end": 128.00226,
-                                "confidence": 0.9975586,
+                                "confidence": 0.9970703,
                                 "punctuated_word": "America"
                             },
                             {
                                 "word": "great",
-                                "start": 128.06198,
+                                "start": 128.022,
                                 "end": 128.26189,
-                                "confidence": 0.99658203,
+                                "confidence": 0.9970703,
                                 "punctuated_word": "great"
                             },
                             {
                                 "word": "again",
                                 "start": 128.26189,
                                 "end": 128.76189,
-                                "confidence": 0.873291,
+                                "confidence": 0.8796387,
                                 "punctuated_word": "again."
                             },
                             {
                                 "word": "she's",
                                 "start": 129.06148,
                                 "end": 129.38132,
-                                "confidence": 0.9968262,
+                                "confidence": 0.99609375,
                                 "punctuated_word": "She's"
                             },
                             {
@@ -3074,14 +3074,14 @@
                                 "word": "country",
                                 "start": 130.18092,
                                 "end": 130.68092,
-                                "confidence": 0.8937988,
+                                "confidence": 0.88671875,
                                 "punctuated_word": "country."
                             },
                             {
                                 "word": "and",
                                 "start": 130.8206,
                                 "end": 130.98053,
-                                "confidence": 0.98828125,
+                                "confidence": 0.98876953,
                                 "punctuated_word": "And"
                             },
                             {
@@ -3101,23 +3101,23 @@
                             {
                                 "word": "becomes",
                                 "start": 131.34035,
-                                "end": 131.8201,
+                                "end": 131.84035,
                                 "confidence": 1.0,
                                 "punctuated_word": "becomes"
                             },
                             {
                                 "word": "president",
-                                "start": 131.8201,
-                                "end": 132.3201,
-                                "confidence": 0.861084,
+                                "start": 131.86008,
+                                "end": 132.36008,
+                                "confidence": 0.85302734,
                                 "punctuated_word": "president,"
                             },
                             {
                                 "word": "this",
                                 "start": 132.64143,
                                 "end": 132.9213,
-                                "confidence": 0.24060059,
-                                "punctuated_word": "This"
+                                "confidence": 0.37597656,
+                                "punctuated_word": "this"
                             },
                             {
                                 "word": "country",
@@ -3130,21 +3130,21 @@
                                 "word": "doesn't",
                                 "start": 133.3211,
                                 "end": 133.64095,
-                                "confidence": 0.99853516,
+                                "confidence": 0.9987793,
                                 "punctuated_word": "doesn't"
                             },
                             {
                                 "word": "have",
                                 "start": 133.64095,
-                                "end": 133.88081,
+                                "end": 133.84084,
                                 "confidence": 1.0,
                                 "punctuated_word": "have"
                             },
                             {
                                 "word": "a",
-                                "start": 133.88081,
+                                "start": 133.84084,
                                 "end": 134.00076,
-                                "confidence": 0.9975586,
+                                "confidence": 0.9970703,
                                 "punctuated_word": "a"
                             },
                             {
@@ -3158,21 +3158,21 @@
                                 "word": "of",
                                 "start": 134.48051,
                                 "end": 134.7204,
-                                "confidence": 0.9995117,
+                                "confidence": 0.99902344,
                                 "punctuated_word": "of"
                             },
                             {
                                 "word": "success",
                                 "start": 134.7204,
                                 "end": 135.2204,
-                                "confidence": 0.90283203,
+                                "confidence": 0.88720703,
                                 "punctuated_word": "success."
                             },
                             {
                                 "word": "not",
                                 "start": 135.48003,
                                 "end": 135.67992,
-                                "confidence": 0.98828125,
+                                "confidence": 0.9892578,
                                 "punctuated_word": "Not"
                             },
                             {
@@ -3186,14 +3186,14 @@
                                 "word": "success",
                                 "start": 135.99976,
                                 "end": 136.49976,
-                                "confidence": 0.9970703,
+                                "confidence": 0.99609375,
                                 "punctuated_word": "success"
                             },
                             {
                                 "word": "will",
                                 "start": 136.67941,
                                 "end": 136.87932,
-                                "confidence": 0.82910156,
+                                "confidence": 0.7993164,
                                 "punctuated_word": "will"
                             },
                             {
@@ -3221,43 +3221,220 @@
                                 "word": "venezuela",
                                 "start": 137.55898,
                                 "end": 138.05898,
-                                "confidence": 0.9941406,
+                                "confidence": 0.9946289,
                                 "punctuated_word": "Venezuela"
                             },
                             {
                                 "word": "on",
                                 "start": 138.47852,
                                 "end": 138.97852,
-                                "confidence": 0.99609375,
+                                "confidence": 0.99560547,
                                 "punctuated_word": "on"
                             },
                             {
                                 "word": "steroids",
                                 "start": 138.99826,
                                 "end": 139.49826,
-                                "confidence": 0.9560547,
+                                "confidence": 0.94140625,
                                 "punctuated_word": "steroids."
                             },
                             {
                                 "word": "i",
                                 "start": 140.19766,
                                 "end": 140.3176,
-                                "confidence": 0.86035156,
+                                "confidence": 0.86621094,
                                 "punctuated_word": "I"
                             },
                             {
                                 "word": "just",
                                 "start": 140.3176,
-                                "end": 140.5175,
+                                "end": 140.47752,
                                 "confidence": 0.9995117,
                                 "punctuated_word": "just"
                             },
                             {
                                 "word": "wanna",
-                                "start": 140.5175,
+                                "start": 140.47752,
                                 "end": 140.6665,
                                 "confidence": 0.9433594,
                                 "punctuated_word": "wanna"
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "label": "CARDINAL",
+                                "value": "one",
+                                "confidence": 0.98537004,
+                                "start_word": 11,
+                                "end_word": 12
+                            },
+                            {
+                                "label": "NAME",
+                                "value": "Donald Trump's",
+                                "confidence": 0.9997472,
+                                "start_word": 13,
+                                "end_word": 15
+                            },
+                            {
+                                "label": "NAME",
+                                "value": "Hannibal Lecter",
+                                "confidence": 0.99993265,
+                                "start_word": 39,
+                                "end_word": 41
+                            },
+                            {
+                                "label": "CONDITION",
+                                "value": "cancer",
+                                "confidence": 0.99997437,
+                                "start_word": 47,
+                                "end_word": 48
+                            },
+                            {
+                                "label": "CARDINAL",
+                                "value": "one",
+                                "confidence": 0.9686641,
+                                "start_word": 73,
+                                "end_word": 74
+                            },
+                            {
+                                "label": "OCCUPATION",
+                                "value": "president",
+                                "confidence": 0.9999994,
+                                "start_word": 109,
+                                "end_word": 110
+                            },
+                            {
+                                "label": "ORDINAL",
+                                "value": "first",
+                                "confidence": 0.9995303,
+                                "start_word": 114,
+                                "end_word": 115
+                            },
+                            {
+                                "label": "OCCUPATION",
+                                "value": "President",
+                                "confidence": 0.99996185,
+                                "start_word": 123,
+                                "end_word": 124
+                            },
+                            {
+                                "label": "NAME_FAMILY",
+                                "value": "Harris",
+                                "confidence": 0.9998518,
+                                "start_word": 124,
+                                "end_word": 125
+                            },
+                            {
+                                "label": "OCCUPATION",
+                                "value": "President",
+                                "confidence": 0.999972,
+                                "start_word": 127,
+                                "end_word": 128
+                            },
+                            {
+                                "label": "NAME_FAMILY",
+                                "value": "Trump",
+                                "confidence": 0.9999466,
+                                "start_word": 128,
+                                "end_word": 129
+                            },
+                            {
+                                "label": "OCCUPATION",
+                                "value": "agents",
+                                "confidence": 0.999998,
+                                "start_word": 167,
+                                "end_word": 168
+                            },
+                            {
+                                "label": "OCCUPATION",
+                                "value": "officers",
+                                "confidence": 0.9999862,
+                                "start_word": 169,
+                                "end_word": 170
+                            },
+                            {
+                                "label": "ORDINAL",
+                                "value": "board. First",
+                                "confidence": 0.58652973,
+                                "start_word": 172,
+                                "end_word": 174
+                            },
+                            {
+                                "label": "DURATION",
+                                "value": "three and a half years",
+                                "confidence": 0.99150676,
+                                "start_word": 266,
+                                "end_word": 271
+                            },
+                            {
+                                "label": "EVENT",
+                                "value": "World War three",
+                                "confidence": 0.9998559,
+                                "start_word": 283,
+                                "end_word": 286
+                            },
+                            {
+                                "label": "LOCATION_COUNTRY",
+                                "value": "the United States",
+                                "confidence": 0.9923274,
+                                "start_word": 322,
+                                "end_word": 325
+                            },
+                            {
+                                "label": "LOCATION_CITY",
+                                "value": "Aurora",
+                                "confidence": 0.99999774,
+                                "start_word": 337,
+                                "end_word": 338
+                            },
+                            {
+                                "label": "LOCATION_CITY",
+                                "value": "Springfield",
+                                "confidence": 0.99999285,
+                                "start_word": 339,
+                                "end_word": 340
+                            },
+                            {
+                                "label": "LOCATION_CITY",
+                                "value": "Springfield",
+                                "confidence": 0.99999535,
+                                "start_word": 356,
+                                "end_word": 357
+                            },
+                            {
+                                "label": "LOCATION_COUNTRY",
+                                "value": "America",
+                                "confidence": 0.99999523,
+                                "start_word": 422,
+                                "end_word": 423
+                            },
+                            {
+                                "label": "LOCATION_COUNTRY",
+                                "value": "America",
+                                "confidence": 0.99999774,
+                                "start_word": 429,
+                                "end_word": 430
+                            },
+                            {
+                                "label": "OCCUPATION",
+                                "value": "president",
+                                "confidence": 0.9999354,
+                                "start_word": 440,
+                                "end_word": 441
+                            },
+                            {
+                                "label": "LOCATION_COUNTRY",
+                                "value": "Venezuela",
+                                "confidence": 0.99999774,
+                                "start_word": 456,
+                                "end_word": 457
+                            },
+                            {
+                                "label": "DRUG",
+                                "value": "steroids",
+                                "confidence": 0.9459155,
+                                "start_word": 458,
+                                "end_word": 459
                             }
                         ]
                     }
