@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accountability</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -15,7 +16,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         header {
@@ -26,38 +27,42 @@
 
         header h1 {
             font-size: 28px;
-            color: #d32f2f; /* Red */
+            color: #d32f2f;
             margin: 0;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
 
         main {
-            background-color: #ffffff; /* White */
+            background-color: #ffffff;
             border-radius: 8px;
             padding: 30px 50px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            max-width: 600px;
+            width: 80%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
 
         h2 {
             font-size: 24px;
             margin-bottom: 20px;
-            color: #1976d2; /* Blue */
+            color: #1976d2;
         }
 
         input[type="text"] {
             width: 100%;
             padding: 12px;
             margin: 15px 0;
-            border: 2px solid #1976d2; /* Blue */
+            border: 2px solid #1976d2;
             border-radius: 4px;
             font-size: 16px;
         }
 
         button {
-            background-color: #d32f2f; /* Red */
+            background-color: #d32f2f;
             color: white;
             padding: 12px 24px;
             border: none;
@@ -69,70 +74,93 @@
         }
 
         button:hover {
-            background-color: #c62828; /* Darker red on hover */
+            background-color: #c62828;
         }
 
         .result {
             margin-top: 20px;
-            color: #1976d2; /* Blue */
-            font-size: 18px;
+            color: #1976d2;
+            font-size: 16px;
+            width: 100%;
+            height: 300px;
+            padding: 12px;
+            border: 2px solid #1976d2;
+            border-radius: 4px;
+            overflow-y: auto;
+            text-align: left;
+        }
+
+        .result h1, .result h2, .result h3, .result h4, .result h5, .result h6 {
+            color: #1976d2;
+        }
+
+        .result ul, .result ol {
+            padding-left: 20px;
+        }
+
+        .result code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        .result pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
         }
 
         footer {
             position: absolute;
             bottom: 10px;
             text-align: center;
-            color: #d32f2f; /* Red */
+            color: #d32f2f;
         }
     </style>
 </head>
 <body>
-
     <header>
         <h1>Accountability</h1>
     </header>
 
     <main>
-        <h2>Enter a Link for Analysis</h2>
+        <h2>Enter a YouTube Link for Analysis</h2>
         <form id="linkForm" onsubmit="event.preventDefault(); submitInput();">
             {% csrf_token %}
-            <input type="text" id="userLink" name="userLink" placeholder="Paste your link here..." required>
+            <input type="text" id="userLink" name="userLink" placeholder="Paste your YouTube link here..." required>
             <button type="submit">Submit</button>
         </form>
         <div class="result" id="outputResult">Your output will appear here...</div>
     </main>
 
-    <footer>
-        <p>© 2024 Accountability</p>
-    </footer>
-
     <script>
         function submitInput() {
-            const link = document.getElementById('userLink').value;
-
+            const inputText = document.getElementById("userLink").value;
+            document.getElementById("outputResult").innerHTML = "Loading...";
+    
             fetch("{% url 'process_input' %}", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
-                    'X-CSRFToken': '{{ csrf_token }}' // For CSRF protection in Django
+                    'X-CSRFToken': '{{ csrf_token }}'
                 },
                 body: new URLSearchParams({
-                    'textInput': link
+                    'textInput': inputText
                 })
             })
             .then(response => response.json())
             .then(data => {
                 if (data.output) {
-                    document.getElementById("outputResult").innerText = `Result: ${data.output}`;
+                    document.getElementById("outputResult").innerHTML = marked.parse(data.output);
                 } else {
-                    document.getElementById("outputResult").innerText = "Error processing input.";
+                    document.getElementById("outputResult").innerHTML = "Error processing input.";
                 }
             })
             .catch(error => {
-                document.getElementById("outputResult").innerText = `Error: ${error.message}`;
+                document.getElementById("outputResult").innerHTML = "An error occurred.";
             });
         }
     </script>
-
 </body>
 </html>

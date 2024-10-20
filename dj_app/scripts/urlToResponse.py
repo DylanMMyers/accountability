@@ -88,7 +88,7 @@ def query(transcript, title):
     )
     
     result_text = response.choices[0].message.content   # Adjust this based on the response structure
-    
+    #print(result_text)
     return result_text
 
 
