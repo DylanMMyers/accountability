@@ -52,17 +52,25 @@ def query(transcript, title):
     - response (str): The API's response containing the assessment.
     """
     prompt = f"""
-    You are about to receive a transcript from some political event, like a speech or debate. Identify which political figures are speaking and assess the accuracy and truth of their statement. For each political figure you identify, rate them from 1-5 on how accurate and truthful their statements were. Provide a summary for each political figure and what they said, how truthful certain statements were and provide further context or explanations of how what they said is accurate, deceptive, or a lie. Avoid categorizing statements similar to “I want to be a good president” and such general statements. Please also state what the most deceptive statement was. When selecting sources try to use a mix of typically conservative and liberal sources to provide a wider world view on the situation. Based on these sources, provide a confidence score out of 100 for how accurate your assessment is of each candidate, with 100 being fully confident. Please cite these sources at the bottom of the response. The transcript has the link “{title}”, which may help provide you with context. PLEASE DO NOT PROVIDE A TABLE OR ANY OTHER CONTEXT BEFORE THE OUTPUT, JUST PROVIDE THE DATA IN THE FORMAT BELOW:
-
-    A response may look like:
-    (Political Figure) : (rating/5):
-    Most deceptive statement: (text here)
-    Summary of truthfulness of a statement: (text here)
-    (Sources for that statement)
-    
-    Here is the transcript:
-    {transcript}
+    You will receive a transcript from a political event, such as a speech or debate. Your task is to identify the political figures speaking and evaluate the accuracy and truthfulness of their statements. For each political figure, assign a rating from 1 to 5, where 1 represents mostly false or misleading statements and 5 represents highly accurate and truthful remarks.
+    For each figure, provide the following and do not provide any context before this structure:
+    -A summary of their statements.
+    -An assessment of how truthful specific claims are, explaining whether certain statements are accurate, deceptive, or false. Avoid general statements like "I want to be a good president."
+    -Highlight the most deceptive statement made by each figure.
+    -Use a mix of conservative and liberal sources to provide a balanced analysis.
+    -Based on these sources, assign a confidence score (out of 100) for how confident you are in your assessment of each figure's accuracy, with 100 being fully confident.
+    -Cite the sources used at the end of your response.
+    The transcript can be accessed here: {title}.
+    Here is the transcript: {transcript}
+    The format for your response should be as follows:
+    (Political Figure) (NEWLINE)
+    Overall From Source: (rating/5) (NEWLINE)
+    Most deceptive statement: (rating for this statement where 1 is a lie, 5 is truthful: 1/5) (NEWLINE)
+    (Most deceptive statement) (NEWLINE)
+    Summary of truthfulness: (explanation) (NEWLINE)
+    Sources: (list of sources, do not use links, instead provide name of the article and publisher)
     """
+
 
     messages = [
         {
@@ -103,6 +111,7 @@ def getTranscript(url):
         return totalTranscript
     except:
         print("Something went wrong with getting transcript!")
+        return "ERROR"
 
 
 import os
@@ -114,8 +123,8 @@ def mainf(url):
     # with open(loc, 'r', encoding='utf-8') as file:
     #     transcript = file.read()
     transcript = getTranscript(url)
-    if transcript == "":
-        return "ERROR"
+    if transcript == "ERROR":
+        return "ERROR\nEnsure you submitted a valid link\nIf the issues persists, the request was likely blocked"
     response = query(transcript, url)
     if response == "":
         return "ERROR"
