@@ -3,31 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Input and Output</title>
+    <title>Accountability</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
-        .output-container {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            height: 200px;
-            overflow-y: auto;
+
+        header {
+            position: absolute;
+            top: 20px;
+            left: 20px;
         }
+
+        header h1 {
+            font-size: 28px;
+            color: #d32f2f; /* Red */
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        main {
+            background-color: #ffffff; /* White */
+            border-radius: 8px;
+            padding: 30px 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1976d2; /* Blue */
+        }
+
         input[type="text"] {
-            width: 300px;
-            padding: 5px;
+            width: 100%;
+            padding: 12px;
+            margin: 15px 0;
+            border: 2px solid #1976d2; /* Blue */
+            border-radius: 4px;
+            font-size: 16px;
         }
+
         button {
-            padding: 5px 10px;
+            background-color: #d32f2f; /* Red */
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
             cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #c62828; /* Darker red on hover */
+        }
+
+        .result {
+            margin-top: 20px;
+            color: #1976d2; /* Blue */
+            font-size: 18px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            color: #d32f2f; /* Red */
         }
     </style>
+</head>
+<body>
+
+    <header>
+        <h1>Accountability</h1>
+    </header>
+
+    <main>
+        <h2>Enter a Link for Analysis</h2>
+        <form id="linkForm" onsubmit="event.preventDefault(); submitInput();">
+            {% csrf_token %}
+            <input type="text" id="userLink" name="userLink" placeholder="Paste your link here..." required>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="result" id="outputResult">Your output will appear here...</div>
+    </main>
+
+    <footer>
+        <p>© 2024 Accountability</p>
+    </footer>
+
     <script>
         function submitInput() {
-            const inputText = document.getElementById("textInput").value;
+            const link = document.getElementById('userLink').value;
 
             fetch("{% url 'process_input' %}", {
                 method: 'POST',
@@ -36,36 +117,22 @@
                     'X-CSRFToken': '{{ csrf_token }}' // For CSRF protection in Django
                 },
                 body: new URLSearchParams({
-                    'textInput': inputText
+                    'textInput': link
                 })
             })
             .then(response => response.json())
             .then(data => {
                 if (data.output) {
-                    document.getElementById("outputText").innerText = data.output;
+                    document.getElementById("outputResult").innerText = `Result: ${data.output}`;
                 } else {
-                    document.getElementById("outputText").innerText = "Error processing input.";
+                    document.getElementById("outputResult").innerText = "Error processing input.";
                 }
             })
             .catch(error => {
-                document.getElementById("outputText").innerText = "An error occurred.";
+                document.getElementById("outputResult").innerText = `Error: ${error.message}`;
             });
         }
     </script>
-</head>
-<body>
-
-    <h1>Text Input and Output</h1>
-
-    <form id="textForm" onsubmit="event.preventDefault(); submitInput();">
-        <label for="textInput">Enter text:</label>
-        <input type="text" id="textInput" name="textInput">
-        <button type="submit">Submit</button>
-    </form>
-
-    <div class="output-container" id="outputArea">
-        <p id="outputText">Your output will appear here...</p>
-    </div>
 
 </body>
 </html>
