@@ -52,7 +52,7 @@ def query(transcript, title):
     - response (str): The API's response containing the assessment.
     """
     prompt = f"""
-    You will receive a transcript from a political event, such as a speech or debate. Your task is to identify the political figures speaking and evaluate the accuracy and truthfulness of their statements. For each political figure, assign a rating from 1 to 5, where 1 represents mostly false or misleading statements and 5 represents highly accurate and truthful remarks.
+You will receive a transcript from a political event, such as a speech or debate. Your task is to identify the political figures speaking and evaluate the accuracy and truthfulness of their statements. For each political figure, assign a rating from 1 to 5, where 1 represents mostly false or misleading statements and 5 represents highly accurate and truthful remarks. Provide an overall rating for each speaker as well.
     For each figure, provide the following and do not provide any context before this structure:
     -A summary of their statements.
     -An assessment of how truthful specific claims are, explaining whether certain statements are accurate, deceptive, or false. Avoid general statements like "I want to be a good president."
@@ -62,13 +62,6 @@ def query(transcript, title):
     -Cite the sources used at the end of your response.
     The transcript can be accessed here: {title}.
     Here is the transcript: {transcript}
-    The format for your response should be as follows:
-    (Political Figure) (NEWLINE)
-    Overall From Source: (rating/5) (NEWLINE)
-    Most deceptive statement: (rating for this statement where 1 is a lie, 5 is truthful: 1/5) (NEWLINE)
-    (Most deceptive statement) (NEWLINE)
-    Summary of truthfulness: (explanation) (NEWLINE)
-    Sources: (list of sources, do not use links, instead provide name of the article and publisher)
     """
 
 
