@@ -98,7 +98,5 @@ def mainf(url):
     with open(loc, 'r', encoding='utf-8') as file:
         transcript = file.read()
     response = query(transcript, title)
-    print(response)
+    return response
 
-myURL = "https://www.youtube.com/watch?v=NP96mMBxI2E&ab_channel=C-SPAN"
-mainf(myURL)
