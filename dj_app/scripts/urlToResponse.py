@@ -6,7 +6,7 @@ def returnTranscriptFilePathFromURL(url):
     ################ DOWNLOAD VIDEO ##################
     ydl_opts = {
     'format': 'bestaudio/best',
-    'outtmpl': './audOut/%(title)s.mp3'
+    'outtmpl': './dj_app/scripts/audOut/%(title)s.mp3'
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -14,13 +14,13 @@ def returnTranscriptFilePathFromURL(url):
         videoTitle = info_dict.get('title', None)
         ydl.download(url)
 
-    VIDEO_FILE = ".\\audOut\\" + videoTitle + ".mp3"
+    VIDEO_FILE = ".\\dj_app\\scripts\\audOut\\" + videoTitle + ".mp3"
 
     ########## CONVERTING VIDEO TO TRANSCRIPT (JSON) ##################
 
     DEEPGRAM_API_KEY = 'd39e79e5d1cecef3561049b576e5135cc0b49234' 
     PARAMS = {'punctuate': True, 'tier': 'enhanced', 'detect_entities' : True}
-    transcription_file = ".\\jsonOut\\" + videoTitle + '.txt'
+    transcription_file = ".\\dj_app\\scripts\\jsonOut\\" + videoTitle + '.txt'
     async def main(): 
         deepgram = Deepgram(DEEPGRAM_API_KEY)
         with open(VIDEO_FILE, 'rb') as audio: 
@@ -87,14 +87,16 @@ def query(transcript, title):
         messages=messages,
     )
     
-    return response
+    result_text = response.choices[0].message.content   # Adjust this based on the response structure
+    
+    return result_text
 
 
 import os
 
 def mainf(url):
     loc = returnTranscriptFilePathFromURL(url)
-    title = loc.replace(".\\jsonOut\\", "").replace(".txt","")
+    title = loc.replace(".\\dj_app\\scripts\\jsonOut\\", "").replace(".txt","")
     with open(loc, 'r', encoding='utf-8') as file:
         transcript = file.read()
     response = query(transcript, title)
