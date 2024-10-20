@@ -124,7 +124,7 @@ def mainf(url):
     #     transcript = file.read()
     transcript = getTranscript(url)
     if transcript == "ERROR":
-        return "ERROR\nEnsure you submitted a valid link\nIf the issues persists, the request was likely blocked"
+        return "ERROR: request blocked or invalid link"
     response = query(transcript, url)
     if response == "":
         return "ERROR"
