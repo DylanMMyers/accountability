@@ -114,6 +114,10 @@ def mainf(url):
     # with open(loc, 'r', encoding='utf-8') as file:
     #     transcript = file.read()
     transcript = getTranscript(url)
+    if transcript == "":
+        return "ERROR"
     response = query(transcript, url)
+    if response == "":
+        return "ERROR"
     return response
 
