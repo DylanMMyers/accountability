@@ -94,7 +94,7 @@ def query(transcript, title):
 from youtube_transcript_api import YouTubeTranscriptApi
 def getTranscript(url):
     try:
-        video_id = url.remove("https://www.youtube.com/watch?v=","")[:15]
+        video_id = url.replace("https://www.youtube.com/watch?v=","")[:14]
         transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
         transcript = transcript_list.find_transcript(['en'])
         totalTranscript = ""
